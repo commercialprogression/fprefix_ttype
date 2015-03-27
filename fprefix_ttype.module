@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the fprefix_ttype feature.
+ */
+
+include_once 'fprefix_ttype.features.inc';

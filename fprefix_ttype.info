@@ -1,0 +1,14 @@
+name = fprefix_ttype
+description = Taxonomy vocabulary, Views, etc. for ttype taxonomy vocabulary.
+core = 7.x
+package = Features
+version = 7.x-0.1
+project = fprefix_ttype
+dependencies[] = features
+dependencies[] = taxonomy
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[taxonomy][] = ttype
+features[views_view][] = ttype
+features_exclude[dependencies][ctools] = ctools
